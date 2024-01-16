@@ -16,11 +16,18 @@
     background-color: var(--Light-pink);
     display: flex;
     justify-content: center;
+    background-color: var(--Soft-violet);
     align-items: center;
     min-height: 100vh;
     position: relative;
   }
-
+  .image{
+    position: relative;
+  }
+  .box{
+    position: absolute;
+    left:0;
+  }
   .background-image {
     width: 100%;
   }
@@ -31,7 +38,9 @@
     display: none;
   }
   .container {
-    max-width: 1000px;
+    max-width:1000px;
+    display: flex;
+    justify-content: space-between;
     position: relative;
     z-index: 1;
     background-color: white;
